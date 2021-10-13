@@ -30,13 +30,13 @@
                 <path d="M-1 -1 L17 -1 L17 17 L-1 17 L-1 -1 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath6">
-                <path d="M-1 -1 L33 -1 L33 13 L-1 13 L-1 -1 Z"/>
+                <path d="M-1 -1 L13 -1 L13 14 L-1 14 L-1 -1 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath7">
-                <path d="M155 44 L184 44 L184 55 L155 55 L155 44 Z"/>
+                <path d="M-1 -1 L33 -1 L33 13 L-1 13 L-1 -1 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath8">
-                <path d="M195 25 L224 25 L224 36 L195 36 L195 25 Z"/>
+                <path d="M155 44 L184 44 L184 55 L155 55 L155 44 Z"/>
             </clipPath>
             <clipPath clipPathUnits="userSpaceOnUse" id="clipPath9">
                 <path d="M200 34 L229 34 L229 45 L200 45 L200 34 Z"/>
@@ -85,9 +85,17 @@ e4GX4dGHRwysTKwMv//9ZvjB9oMBFvgIL4A0xwMxOxD/BOKFCFu+fPvCcPDeQaC5
 TAz/gPDHjx8IF8NZ5UDcgeTMFqALaghHMRMDhYAF5hfGCqBjriN54QupCek91N8g
 N/2D8kkxABbipAKKw2AYGAAArXBAE6T1kEAAAAAASUVORK5CYII=" xlink:actuate="onLoad"/>
             <image xmlns:xlink="http://www.w3.org/1999/xlink"
-                   transform="matrix(1,0,0,1,176,73)" width="32"
+                   transform="matrix(1,0,0,1,176,53)" width="12"
                    xlink:show="embed" xlink:type="simple"
                    clip-path="url(#clipPath6)" preserveAspectRatio="none"
+                   height="12" x="0" y="0"
+                   xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAAUUlEQVR42mP8//8/
+AymAiYFEwIIusPcFI1YrnSX+M2K1ASZBkpPwacKqAZezsGpAVozNJiZCitE1MRFj
+MjKfiRhnIANm24xGohWjOIkYxSAAANxbJAR64+t4AAAAAElFTkSuQmCC" xlink:actuate="onLoad"/>
+            <image xmlns:xlink="http://www.w3.org/1999/xlink"
+                   transform="matrix(1,0,0,1,176,73)" width="32"
+                   xlink:show="embed" xlink:type="simple"
+                   clip-path="url(#clipPath7)" preserveAspectRatio="none"
                    height="12" x="0" y="0" font-size="3"
                    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAMCAYAAAADFL+5AAAB5ElEQVR42sVUPVPb
 QBB9wpKsSMY28QibMTMUfPyY5A+YjoaUrjL5Ie5JTQkF6fxDwKYCD9gaW5YMsj5s
@@ -113,11 +121,8 @@ Y6hhIsV2bGpZ8Nn++zIfTlf8/7j2PyN/MCMTxEQTrLajxwJqumiDeOHf+6X///+8
 zUAq+P/zDphm/HPL6D+MQypgZFdhYPr/6yEDuQCkl4lF+w0jAxMn6bqBepjEaxgA
 TrFvOcRcC5wAAAAASUVORK5CYII=" xlink:actuate="onLoad"/>
             <polygon text-rendering="optimizeLegibility"
-                     clip-path="url(#clipPath7)" points=" 167 45 176 49 167 54"
+                     clip-path="url(#clipPath8)" points=" 167 45 176 49 167 54"
                      stroke="none"/>
-            <circle clip-path="url(#clipPath8)" fill="white"
-                    text-rendering="optimizeLegibility" r="4" cx="212" cy="30"
-                    stroke="none"/>
             <polygon text-rendering="optimizeLegibility"
                      clip-path="url(#clipPath9)" points=" 208 35 217 39 208 44"
                      stroke="none"/>
@@ -149,19 +154,20 @@ NlM/EMkJA5AXnr54wkgVFwAASwpYL8V+IMAAAAAASUVORK5CYII=" xlink:actuate="onLoad"/>
                    text-rendering="optimizeLegibility"
                    transform="matrix(1,0,0,1,36,73)" width="32"
                    xlink:show="embed" xlink:type="simple"
-                   clip-path="url(#clipPath6)" preserveAspectRatio="none"
+                   clip-path="url(#clipPath7)" preserveAspectRatio="none"
                    height="12" x="0" y="0" font-size="3"
-                   xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAMCAYAAAADFL+5AAABuklEQVR42sVUy07C
-UBA9LdW2PigEwY2JMaCfoVv9C7/Aj/FnXLHQf2AhlLhxpUJ5WNsSKN5zpTeFVgwu
-9CSTtHceZ+7cmdGazeY1gFsh+/hbjIXcGL8nn0PHVH7FYBht0wDkvDXS5Lquw7Zt
-OMV9mKaJ4WgE/91HNJkseZ4U73B08ACjHMv/qafj+e0cT6OrJTtzexu7e7siXhFR
-FIl4YwRBgDiOVRJG8qVpGkolB43GqQpQrR3iI/iA2+4gFAES8uP6PfSypey2HODY
-uQe6UElY4gKNs1Ps2DvK7kiI63bgeQPM5/OvSydKy7JQrzcydWKASqWiys6bp8lV
-9cQZdbQh6JMmT0AOcik/VS6RMauQh2qtikKhIN88KXseqKMNbemTB3KQK5PAf0El
-wCZJ3mUVry+vmM1mstvZcN+BOtrQlj65syM4okU/LSUQhiG6XTfjwCbs9XpJAWW3
-x16YseMZdck40oe+qyAHudSzpTMbDIZotVprx1B2uej27BheLI0hp6bz2M4dw3Sl
-jcVGkruA8+n7vpR1INHT6PLHRcTEo/4E/b737TbkE9wsktgQmiDekvKLLahW8Sd3
-I9NSe3Ml5QAAAABJRU5ErkJggg==" xlink:actuate="onLoad"/>
+                   xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAMCAYAAAADFL+5AAAB2UlEQVR42sVUTU/b
+MBh+7DRpEqBNV1EY4wTlOmkXBEK77DJpv4JfwI/h30yqJi4cxhHBaYUT4qN8pGkI
+SZrFxg7YKiT0xvZYlvz6tf08fv2+Jr1ebxvAruhz+LcIRd+h703ORct5DsbZa5fk
+3K1NklNK4TgOvEYDlmVhFI5wH0VI0/GLnaZpwnUdNJteYQfBEA8PMbIs02uYaAf3
+e7jBBTJrDMoM2GMXX5xNdMxPWkRNjQghaHlNdLtr+pDOwoI4OMKffh9Jkmry5aWl
+wqfwcXERg6srnJ2faxH74U/czF6CmBQEtIhEjAi//V/4Sn7Aq7WfLq0OcWwbqyvd
+UghddwbtD+0J23lBPilW+iRSlsCvDQry12Aew2FyoG29wqrXQSipfMfO/DwMwyjG
+KuxVUL4R85E7vDonBEVCorKA/wUtYJym4Kxa9eD6Gnme64R7C8rXoC0YcXU0iaCw
++UxZQJwkODntlzbIJLy9u52w4yLhSiLFnPRJ1KmN1t8OeMbKNx5SfLbXta2rgHMO
+fxjg6Ph4ahnKLJfZfjf0p5bh1tz3N8tQVYASEKq/gDGGSBDKPg2SKAhkH015W4qN
+2W9F+clPiMhitEspF8qZnWcR7wJJbBADlNDKr/gRdwHUkatixdAAAAAASUVORK5C
+YII=" xlink:actuate="onLoad"/>
             <polygon text-rendering="optimizeLegibility"
                      clip-path="url(#clipPath12)" points=" 68 45 77 49 68 54"
                      stroke="none"/>
@@ -200,9 +206,18 @@ TAz/gPDHjx8IF8NZ5UDcgeTMFqALaghHMRMDhYAF5hfGCqBjriN54QupCek91N8g
 N/2D8kkxABbipAKKw2AYGAAArXBAE6T1kEAAAAAASUVORK5CYII=" xlink:actuate="onLoad"/>
             <image xmlns:xlink="http://www.w3.org/1999/xlink"
                    text-rendering="optimizeLegibility"
-                   transform="matrix(1,0,0,1,176,73)" width="32"
+                   transform="matrix(1,0,0,1,176,53)" width="12"
                    xlink:show="embed" xlink:type="simple"
                    clip-path="url(#clipPath6)" preserveAspectRatio="none"
+                   height="12" x="0" y="0"
+                   xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAAUUlEQVR42mP8//8/
+AymAiYFEwIIusPcFI1YrnSX+M2K1ASZBkpPwacKqAZezsGpAVozNJiZCitE1MRFj
+MjKfiRhnIANm24xGohWjOIkYxSAAANxbJAR64+t4AAAAAElFTkSuQmCC" xlink:actuate="onLoad"/>
+            <image xmlns:xlink="http://www.w3.org/1999/xlink"
+                   text-rendering="optimizeLegibility"
+                   transform="matrix(1,0,0,1,176,73)" width="32"
+                   xlink:show="embed" xlink:type="simple"
+                   clip-path="url(#clipPath7)" preserveAspectRatio="none"
                    height="12" x="0" y="0" font-size="3"
                    xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAMCAYAAAADFL+5AAAB5ElEQVR42sVUPVPb
 QBB9wpKsSMY28QibMTMUfPyY5A+YjoaUrjL5Ie5JTQkF6fxDwKYCD9gaW5YMsj5s
@@ -229,11 +244,8 @@ Y6hhIsV2bGpZ8Nn++zIfTlf8/7j2PyN/MCMTxEQTrLajxwJqumiDeOHf+6X///+8
 zUAq+P/zDphm/HPL6D+MQypgZFdhYPr/6yEDuQCkl4lF+w0jAxMn6bqBepjEaxgA
 TrFvOcRcC5wAAAAASUVORK5CYII=" xlink:actuate="onLoad"/>
             <polygon text-rendering="optimizeLegibility"
-                     clip-path="url(#clipPath7)" points=" 167 45 176 49 167 54"
+                     clip-path="url(#clipPath8)" points=" 167 45 176 49 167 54"
                      stroke="none"/>
-            <circle clip-path="url(#clipPath8)" fill="white"
-                    text-rendering="optimizeLegibility" r="4" cx="212" cy="30"
-                    stroke="none"/>
             <polygon text-rendering="optimizeLegibility"
                      clip-path="url(#clipPath9)" points=" 208 35 217 39 208 44"
                      stroke="none"/>
@@ -265,19 +277,20 @@ NlM/EMkJA5AXnr54wkgVFwAASwpYL8V+IMAAAAAASUVORK5CYII=" xlink:actuate="onLoad"/>
                    text-rendering="optimizeLegibility"
                    transform="matrix(1,0,0,1,36,73)" width="32"
                    xlink:show="embed" xlink:type="simple"
-                   clip-path="url(#clipPath6)" preserveAspectRatio="none"
+                   clip-path="url(#clipPath7)" preserveAspectRatio="none"
                    height="12" x="0" y="0" font-size="3"
-                   xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAMCAYAAAADFL+5AAABuklEQVR42sVUy07C
-UBA9LdW2PigEwY2JMaCfoVv9C7/Aj/FnXLHQf2AhlLhxpUJ5WNsSKN5zpTeFVgwu
-9CSTtHceZ+7cmdGazeY1gFsh+/hbjIXcGL8nn0PHVH7FYBht0wDkvDXS5Lquw7Zt
-OMV9mKaJ4WgE/91HNJkseZ4U73B08ACjHMv/qafj+e0cT6OrJTtzexu7e7siXhFR
-FIl4YwRBgDiOVRJG8qVpGkolB43GqQpQrR3iI/iA2+4gFAES8uP6PfSypey2HODY
-uQe6UElY4gKNs1Ps2DvK7kiI63bgeQPM5/OvSydKy7JQrzcydWKASqWiys6bp8lV
-9cQZdbQh6JMmT0AOcik/VS6RMauQh2qtikKhIN88KXseqKMNbemTB3KQK5PAf0El
-wCZJ3mUVry+vmM1mstvZcN+BOtrQlj65syM4okU/LSUQhiG6XTfjwCbs9XpJAWW3
-x16YseMZdck40oe+qyAHudSzpTMbDIZotVprx1B2uej27BheLI0hp6bz2M4dw3Sl
-jcVGkruA8+n7vpR1INHT6PLHRcTEo/4E/b737TbkE9wsktgQmiDekvKLLahW8Sd3
-I9NSe3Ml5QAAAABJRU5ErkJggg==" xlink:actuate="onLoad"/>
+                   xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAMCAYAAAADFL+5AAAB2UlEQVR42sVUTU/b
+MBh+7DRpEqBNV1EY4wTlOmkXBEK77DJpv4JfwI/h30yqJi4cxhHBaYUT4qN8pGkI
+SZrFxg7YKiT0xvZYlvz6tf08fv2+Jr1ebxvAruhz+LcIRd+h703ORct5DsbZa5fk
+3K1NklNK4TgOvEYDlmVhFI5wH0VI0/GLnaZpwnUdNJteYQfBEA8PMbIs02uYaAf3
+e7jBBTJrDMoM2GMXX5xNdMxPWkRNjQghaHlNdLtr+pDOwoI4OMKffh9Jkmry5aWl
+wqfwcXERg6srnJ2faxH74U/czF6CmBQEtIhEjAi//V/4Sn7Aq7WfLq0OcWwbqyvd
+UghddwbtD+0J23lBPilW+iRSlsCvDQry12Aew2FyoG29wqrXQSipfMfO/DwMwyjG
+KuxVUL4R85E7vDonBEVCorKA/wUtYJym4Kxa9eD6Gnme64R7C8rXoC0YcXU0iaCw
++UxZQJwkODntlzbIJLy9u52w4yLhSiLFnPRJ1KmN1t8OeMbKNx5SfLbXta2rgHMO
+fxjg6Ph4ahnKLJfZfjf0p5bh1tz3N8tQVYASEKq/gDGGSBDKPg2SKAhkH015W4qN
+2W9F+clPiMhitEspF8qZnWcR7wJJbBADlNDKr/gRdwHUkatixdAAAAAASUVORK5C
+YII=" xlink:actuate="onLoad"/>
             <polygon text-rendering="optimizeLegibility"
                      clip-path="url(#clipPath12)" points=" 68 45 77 49 68 54"
                      stroke="none"/>
