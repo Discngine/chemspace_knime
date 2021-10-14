@@ -79,11 +79,11 @@
 <entry key="node-bundle-name" type="xstring" value="RDKit Nodes for Knime"/>
 <entry key="node-bundle-symbolic-name" type="xstring" value="org.rdkit.knime.nodes"/>
 <entry key="node-bundle-vendor" type="xstring" value="NIBR"/>
-<entry key="node-bundle-version" type="xstring" value="4.0.1.v202006261025"/>
+<entry key="node-bundle-version" type="xstring" value="4.2.0.v202103031419"/>
 <entry key="node-feature-name" type="xstring" value="RDKit KNIME integration"/>
 <entry key="node-feature-symbolic-name" type="xstring" value="org.rdkit.knime.feature.feature.group"/>
 <entry key="node-feature-vendor" type="xstring" value="NIBR"/>
-<entry key="node-feature-version" type="xstring" value="4.0.1.v202006261025"/>
+<entry key="node-feature-version" type="xstring" value="4.2.0.v202103031419"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="RDKit From Molecule"/>
 <entry key="hasContent" type="xboolean" value="false"/>

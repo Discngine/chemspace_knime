@@ -11,10 +11,6 @@
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="IDLE"/>
-<config key="nodecontainer_message">
-<entry key="type" type="xstring" value="WARNING"/>
-<entry key="message" type="xstring" value="No such column: ctab"/>
-</config>
 <entry key="factory" type="xstring" value="org.knime.chem.base.node.converter.parser.MolParserNodeFactory"/>
 <entry key="node-name" type="xstring" value="Molecule Type Cast"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Chemistry Base nodes"/>
