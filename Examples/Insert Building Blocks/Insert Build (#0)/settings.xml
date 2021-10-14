@@ -28,7 +28,7 @@
 <config key="styles"/>
 </config>
 <entry key="customDescription" type="xstring" value="Retrieve the building blocks from chemspace using building block ID's as input"/>
-<entry key="state" type="xstring" value="CONFIGURED"/>
+<entry key="state" type="xstring" value="EXECUTED"/>
 <entry key="workflow-file" type="xstring" value="workflow.knime"/>
 <entry key="virtual-in-ID" type="xint" value="10"/>
 <config key="inports">
