@@ -52,7 +52,7 @@
 <config key="inports">
 <config key="inport_0">
 <entry key="name" type="xstring" value="ctab"/>
-<entry key="description" type="xstring" value="Molecule specified as building block"/>
+<entry key="description" type="xstring" value="Molecule specified as building block%%00010The property must be named ctab for now!"/>
 <entry key="index" type="xint" value="0"/>
 </config>
 </config>
@@ -66,7 +66,7 @@
 </config>
 <config key="workflow_template_information">
 <entry key="role" type="xstring" value="Template"/>
-<entry key="timestamp" type="xstring" value="2021-10-13 23:32:39"/>
+<entry key="timestamp" type="xstring" value="2021-10-14 23:08:53"/>
 <entry key="sourceURI" type="xstring" isnull="true" value=""/>
 <entry key="templateType" type="xstring" value="SubNode"/>
 </config>

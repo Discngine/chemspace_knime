@@ -28,7 +28,7 @@
 </config>
 <config key="port-descriptions">
 <entry key="array-size" type="xint" value="1"/>
-<entry key="0" type="xstring" value="Molecule specified as building block"/>
+<entry key="0" type="xstring" value="Molecule specified as building block%%00010The property must be named ctab for now!"/>
 </config>
 <entry key="sub-node-description" type="xstring" value="Insert new building blocks into chemspace using ctabs"/>
 </config>
