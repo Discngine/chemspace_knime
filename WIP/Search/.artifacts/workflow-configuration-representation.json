@@ -1,0 +1,67 @@
+
+{
+    "api_version-8": {
+        "@class": "org.knime.js.base.node.configuration.input.string.StringDialogNodeRepresentation",
+        "label": "API Version",
+        "description": "Specify the api version to use. valid choices are v1, v2, v3 etc...",
+        "required": true,
+        "defaultValue": {
+            "@class": "org.knime.js.base.node.configuration.input.string.StringDialogNodeValue",
+            "string": "v1"
+        },
+        "currentValue": {
+            "@class": "org.knime.js.base.node.configuration.input.string.StringDialogNodeValue",
+            "string": "v1"
+        },
+        "regex": "v\\d+",
+        "errorMessage": "Invalid version name, specify something like v1 or v2 etc ...",
+        "editorType": "Single-line",
+        "multilineEditorWidth": 40,
+        "multilineEditorHeight": 5
+    },
+    "method-selection-36": {
+        "@class": "org.knime.js.base.node.configuration.selection.single.SingleSelectionDialogNodeRepresentation",
+        "label": "Search method",
+        "description": "Select what method you'd like to use when searching for similar compounds",
+        "required": true,
+        "defaultValue": {
+            "@class": "org.knime.js.base.node.configuration.selection.single.SingleSelectionDialogNodeValue",
+            "value": [
+                "buildingblocks"
+            ]
+        },
+        "currentValue": {
+            "@class": "org.knime.js.base.node.configuration.selection.single.SingleSelectionDialogNodeValue",
+            "value": [
+                "buildingblocks"
+            ]
+        },
+        "possibleChoices": [
+            "buildingblocks",
+            "explicit",
+            "retro"
+        ],
+        "type": "Dropdown",
+        "limitNumberVisOptions": false,
+        "numberVisOptions": 10
+    },
+    "domain-7": {
+        "@class": "org.knime.js.base.node.configuration.input.string.StringDialogNodeRepresentation",
+        "label": "Domain",
+        "description": "Domain running the chemspace server",
+        "required": true,
+        "defaultValue": {
+            "@class": "org.knime.js.base.node.configuration.input.string.StringDialogNodeValue",
+            "string": "http://localhost"
+        },
+        "currentValue": {
+            "@class": "org.knime.js.base.node.configuration.input.string.StringDialogNodeValue",
+            "string": "http://localhost"
+        },
+        "regex": "",
+        "errorMessage": "Invalid domain name. Specify http://localhost if you run on localhost",
+        "editorType": "Single-line",
+        "multilineEditorWidth": 40,
+        "multilineEditorHeight": 5
+    }
+}
