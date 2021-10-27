@@ -9,18 +9,16 @@
 <config key="selectedColumns">
 <entry key="filter-type" type="xstring" value="STANDARD"/>
 <config key="included_names">
-<entry key="array-size" type="xint" value="3"/>
-<entry key="0" type="xstring" value="queryType"/>
-<entry key="1" type="xstring" value="options"/>
-<entry key="2" type="xstring" value="query"/>
+<entry key="array-size" type="xint" value="2"/>
+<entry key="0" type="xstring" value="maxBuildingBlocks"/>
+<entry key="1" type="xstring" value="max_numberresults"/>
 </config>
 <config key="excluded_names">
-<entry key="array-size" type="xint" value="5"/>
+<entry key="array-size" type="xint" value="4"/>
 <entry key="0" type="xstring" value="chemspace_molecule"/>
 <entry key="1" type="xstring" value="url"/>
-<entry key="2" type="xstring" value="maxBuildingBlocks"/>
-<entry key="3" type="xstring" value="max_numberresults"/>
-<entry key="4" type="xstring" value="chemspace_molecule (RDKit Mol)"/>
+<entry key="2" type="xstring" value="queryType"/>
+<entry key="3" type="xstring" value="options"/>
 </config>
 <entry key="enforce_option" type="xstring" value="EnforceInclusion"/>
 <config key="name_pattern">
@@ -33,8 +31,6 @@
 <entry key="org.knime.chem.types.SdfValue" type="xboolean" value="false"/>
 <entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
 <entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
-<entry key="org.knime.core.data.json.JSONValue" type="xboolean" value="false"/>
-<entry key="org.rdkit.knime.types.RDKitMolValue" type="xboolean" value="false"/>
 <entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
 <entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
 <entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
@@ -45,7 +41,7 @@
 <entry key="rowkey.key" type="xstring" value="key"/>
 <entry key="direction" type="xstring" value="KeepRows"/>
 <entry key="column.name.separator" type="xstring" value="."/>
-<entry key="output.column.name" type="xstring" value="JSON"/>
+<entry key="output.column.name" type="xstring" value="options"/>
 <entry key="row.key.option" type="xstring" value="omit"/>
 <entry key="column.names.as.path" type="xboolean" value="false"/>
 <entry key="remove.source.columns" type="xboolean" value="false"/>
@@ -73,12 +69,12 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 2, Cols: 9"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 2, Cols: 6"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="638aaf6a-7c09-46ea-86a6-99e4b857eac6"/>
+<entry key="file_store_id" type="xstring" value="c63732c4-34d2-47c7-931a-690e6566dd15"/>
 </config>
 </config>

@@ -90,19 +90,6 @@
 <entry key="org.knime.rest.auth.ntlm.domain" type="xstring" value=""/>
 </config>
 <entry key="NTLM (Labs)_enabled" type="xboolean" value="false"/>
-<config key="NTLM">
-<config key="NTLM auth_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_authentication"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<config key="NTLM auth">
-<entry key="credentials" type="xstring" isnull="true" value=""/>
-<entry key="username" type="xstring" value=""/>
-<entry key="password" type="xpassword" isnull="true" value=""/>
-<entry key="selectedType" type="xstring" value="USER_PWD"/>
-</config>
-</config>
-<entry key="NTLM_enabled" type="xboolean" value="false"/>
 <entry key="follow redirects" type="xboolean" value="true"/>
 <entry key="timeout" type="xint" value="2"/>
 <entry key="Use constant request body" type="xboolean" value="false"/>
@@ -110,7 +97,11 @@
 <entry key="Request body column" type="xstring" value="JSON"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="state" type="xstring" value="IDLE"/>
+<config key="nodecontainer_message">
+<entry key="type" type="xstring" value="WARNING"/>
+<entry key="message" type="xstring" value="Status: DataLoadError: POST Request 0:0:0:21%%00010  Status: DataLoadError: Unable to load port content for node &quot;POST Request&quot;: No such data file: /Users/peter/Work/chemspace_knime/Examples/Full Submission Example/Insert Build (#0)/POST Request (#21)/port_1/data.zip"/>
+</config>
 <entry key="factory" type="xstring" value="org.knime.rest.nodes.post.RestPostNodeFactory"/>
 <entry key="node-name" type="xstring" value="POST Request"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME REST Client Nodes"/>
@@ -123,19 +114,16 @@
 <entry key="node-feature-version" type="xstring" value="4.3.0.v202011191618"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="POST Request"/>
-<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="hasContent" type="xboolean" value="false"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
-<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 16603, Cols: 10"/>
-<entry key="port_dir_location" type="xstring" value="port_1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="f123f465-8c71-454c-a6fc-4089998d9c3e"/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
 </config>
 </config>

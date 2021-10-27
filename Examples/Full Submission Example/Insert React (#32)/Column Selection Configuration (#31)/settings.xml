@@ -49,7 +49,11 @@
 </config>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="state" type="xstring" value="IDLE"/>
+<config key="nodecontainer_message">
+<entry key="type" type="xstring" value="WARNING"/>
+<entry key="message" type="xstring" value="Status: DataLoadError: Column Selection Configuration 0:32:0:31%%00010  Status: DataLoadError: Unable to load port content for node &quot;Column Selection Configuration&quot;: Can't read spec file /Users/peter/Work/chemspace_knime/Examples/Full Submission Example/Insert React (#32)/Column Selection Configuration (#31)/port_1/spec/spec.zip%%00010  Status: DataLoadError: Unable to load internally held tables for node &quot;Column Selection Configuration&quot;: No BufferedDataTable  with ID 23"/>
+</config>
 <entry key="factory" type="xstring" value="org.knime.js.base.node.configuration.selection.column.ColumnSelectionDialogNodeFactory2"/>
 <entry key="node-name" type="xstring" value="Column Selection Configuration"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Quick Form Nodes"/>
@@ -62,31 +66,16 @@
 <entry key="node-feature-version" type="xstring" value="4.3.3.v202105242123"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Column Selection Configuration"/>
-<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="hasContent" type="xboolean" value="false"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObjectSpec"/>
-<entry key="port_object_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObject"/>
-<entry key="port_object_summary" type="xstring" value="Variables connection"/>
-<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
-<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
-<entry key="port_dir_location" type="xstring" value="port_1"/>
-</config>
-</config>
-<config key="internalObjects">
-<entry key="location" type="xstring" value="internalTables"/>
-<config key="content">
-<config key="object_0">
-<entry key="index" type="xint" value="0"/>
-<entry key="type" type="xstring" value="table"/>
-<entry key="table_dir_location" type="xstring" value="object_0"/>
-</config>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="11f3e453-6df2-4e15-932d-abe4bed680e2"/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
 </config>
 </config>

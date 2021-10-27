@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="spec.xml">
 <entry key="spec_name" type="xstring" value="default"/>
-<entry key="number_columns" type="xint" value="10"/>
+<entry key="number_columns" type="xint" value="12"/>
 <config key="column_spec_0">
 <entry key="column_name" type="xstring" value="chemspace_molecule"/>
 <config key="element_names">
@@ -36,7 +36,7 @@
 <config key="0">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
 <config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="http://localhost:8000/api/v1/search/retro"/>
+<entry key="StringCell" type="xstring" value="http://localhost:8000/api/v1/search/explicit"/>
 </config>
 </config>
 </config>
@@ -67,21 +67,24 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_3">
-<entry key="column_name" type="xstring" value="options"/>
+<entry key="column_name" type="xstring" value="maxBuildingBlocks"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
 <config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
 </config>
 <config key="column_domain">
-<config key="possible_values">
-<entry key="array-size" type="xint" value="1"/>
-<config key="0">
-<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<config key="org.knime.core.data.def.StringCell">
-<entry key="StringCell" type="xstring" value="{&quot;maxBuildingBlocks&quot;: 100,&quot;maxSimilars&quot;:100}"/>
+<config key="lower_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<config key="org.knime.core.data.def.IntCell">
+<entry key="IntCell" type="xint" value="100"/>
 </config>
+</config>
+<config key="upper_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<config key="org.knime.core.data.def.IntCell">
+<entry key="IntCell" type="xint" value="100"/>
 </config>
 </config>
 </config>
@@ -89,6 +92,43 @@
 <config key="meta_data"/>
 </config>
 <config key="column_spec_4">
+<entry key="column_name" type="xstring" value="max_numberresults"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
+</config>
+<config key="column_domain">
+<config key="lower_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<config key="org.knime.core.data.def.IntCell">
+<entry key="IntCell" type="xint" value="100"/>
+</config>
+</config>
+<config key="upper_bound">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
+<config key="org.knime.core.data.def.IntCell">
+<entry key="IntCell" type="xint" value="100"/>
+</config>
+</config>
+</config>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_5">
+<entry key="column_name" type="xstring" value="options"/>
+<config key="element_names">
+<entry key="array-size" type="xint" value="0"/>
+</config>
+<config key="column_type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.json.JSONCell"/>
+</config>
+<config key="column_domain"/>
+<config key="column_properties"/>
+<config key="meta_data"/>
+</config>
+<config key="column_spec_6">
 <entry key="column_name" type="xstring" value="chemspace_molecule (RDKit Mol)"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -110,7 +150,7 @@
 <config key="column_properties"/>
 <config key="meta_data"/>
 </config>
-<config key="column_spec_5">
+<config key="column_spec_7">
 <entry key="column_name" type="xstring" value="query"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -118,11 +158,27 @@
 <config key="column_type">
 <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
 </config>
-<config key="column_domain"/>
+<config key="column_domain">
+<config key="possible_values">
+<entry key="array-size" type="xint" value="2"/>
+<config key="0">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="CiAgICAgUkRLaXQgICAgICAgICAgM0QKCiA0MCA0NCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMDk5OSBWMjAwMAogICAgNS44NzAwICAgLTQuMDQ2MCAgIDE4LjA4NzAgQyAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAKICAgIDYuNDQyMCAgIC0yLjk3NTAgICAxOC43NTMwIEMgICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwCiAgICAyLjQzNTAgICAtMy44MzMwICAgMTkuNDc5MCBDICAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMAogICAgMS42NjIwICAgLTQuODU1MCAgIDE5LjA5MDAgQyAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAKICAgLTEuOTI2MCAgIC00Ljc4NzAgICAyMC4wNjQwIEMgICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwCiAgIC02LjMzNzAgICAtOC4wNTQwICAgMTguMTg0MCBDICAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMAogICAgOC40MzMwICAgLTUuNjAwMCAgIDE1Ljc2NzAgQyAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAKICAgLTQuMzcwMCAgIC05LjI1OTAgICAxNy4zMzgwIEMgICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwCiAgIC0zLjA0OTAgICAtNi43MzgwICAgMTkuNTkzMCBDICAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMAogICAtMC43ODYwICAgLTUuMzQ1MCAgIDE5LjQ3NzAgQyAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAKICAgIDMuNzkyMCAgIC0zLjU5NjAgICAxOS4yMzIwIEMgICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwCiAgICAzLjc2MjAgICAtMS43OTEwICAgMjAuNzAwMCBPICAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMAogICAgMC40MjQwICAgLTMuNDA1MCAgIDIwLjE4MDAgQyAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAKICAgIDAuNDA1MCAgIC00LjYyOTAgICAxOS41MzMwIEMgICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwCiAgIC00Ljg4NTAgICAtOC4zMDIwICAgMTguMzM4MCBOICAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMAogICAtNC41MDMwICAgLTguNjk1MCAgIDE5LjcxMDAgQyAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAKICAgLTQuMDE3MCAgIC03LjQ3NDAgICAyMC40OTgwIEMgICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwCiAgIC0zLjIwMzAgICAtNy44OTgwICAgMjEuNzQxMCBDICAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMAogICAtNS4yMTcwICAgLTYuNTY2MCAgIDIwLjg4NjAgQyAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAKICAgLTMuMTQ3MCAgIC01LjM4MDAgICAyMC4wNDIwIE8gICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwCiAgIC0xLjg5MTAgICAtMy41NjEwICAgMjAuNjk1MCBDICAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMAogICAtMC43MDcwICAgLTIuODYzMCAgIDIwLjc3MTAgQyAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAKICAgIDEuNjUyMCAgIC0yLjk0MzAgICAyMC4xMjMwIE4gICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwCiAgICA0LjUzMjAgICAtNC4zNjAwICAgMTguMzUxMCBDICAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMAogICAgNC4zODQwICAgLTIuNTA3MCAgIDE5Ljg4MjAgQyAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAKICAgIDUuNjk1MCAgIC0yLjE3MjAgICAxOS42MTkwIE4gICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwCiAgICA2LjU5MTAgICAtNC44MTAwICAgMTcuMjM0MCBOICAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMAogICAgNy43NTkwICAgLTQuNDk3MCAgIDE2LjU3ODAgQyAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAKICAgIDguMzUwMCAgIC0zLjQwODAgICAxNi42OTQwIE8gICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwCiAgICA3LjczMDAgICAtNi42NzYwICAgMTUuMzQ4MCBDICAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMAogICAgOS43NDYwICAgLTUuNzI2MCAgIDE1LjQxMjAgQyAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAKICAgIDkuODcyMCAgIC02LjkxMDAgICAxNC43MTMwIE4gICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwCiAgICA4LjU1MTAgICAtNy41MjAwICAgMTQuNzE1MCBOICAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMAogICAgOC4wNDcwICAgLTguNzc2MCAgIDE0LjE0NTAgQyAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAKICAgIDguNjM1MCAgIC05Ljk0MTAgICAxNC45MzQwIEMgICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwCiAgICA4LjE1OTAgIC0xMC4xOTkwICAgMTYuMjQxMCBDICAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMAogICAgOC42OTMwICAtMTEuMjU1MCAgIDE3LjAwNDAgQyAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAKICAgIDkuNzA2MCAgLTEyLjA0MjAgICAxNi40MzkwIEMgICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwCiAgIDEwLjE4MjAgIC0xMS43OTgwICAgMTUuMTMzMCBDICAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMAogICAgOS42NDkwICAtMTAuNzQzMCAgIDE0LjM3NjAgQyAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAKICAxICAyICAyICAwCiAgMyAgNCAgMiAgMAogIDUgMTAgIDEgIDAKICAzIDExICAxICAwCiAgNCAxNCAgMSAgMAogMTAgMTQgIDIgIDAKIDEzIDE0ICAxICAwCiAgNiAxNSAgMSAgMAogIDggMTUgIDEgIDAKIDE1IDE2ICAxICAwCiAgOSAxNyAgMSAgMAogMTYgMTcgIDEgIDAKIDE3IDE4ICAxICAwCiAxNyAxOSAgMSAgMAogIDUgMjAgIDEgIDAKICA5IDIwICAxICAwCiAgNSAyMSAgMiAgMAogMTMgMjIgIDIgIDAKIDIxIDIyICAxICAwCiAgMyAyMyAgMSAgMAogMTMgMjMgIDEgIDAKICAxIDI0ICAxICAwCiAxMSAyNCAgMiAgMAogMTEgMjUgIDEgIDAKIDEyIDI1ICAyICAwCiAgMiAyNiAgMSAgMAogMjUgMjYgIDEgIDAKICAxIDI3ICAxICAwCiAgNyAyOCAgMSAgMAogMjcgMjggIDEgIDAKIDI4IDI5ICAyICAwCiAgNyAzMCAgMiAgMAogIDcgMzEgIDEgIDAKIDMxIDMyICAyICAwCiAzMCAzMyAgMSAgMAogMzIgMzMgIDEgIDAKIDMzIDM0ICAxICAwCiAzNCAzNSAgMSAgMAogMzUgMzYgIDIgIDAKIDM2IDM3ICAxICAwCiAzNyAzOCAgMiAgMAogMzggMzkgIDEgIDAKIDM1IDQwICAxICAwCiAzOSA0MCAgMiAgMApNICBFTkQKCiQkJCQK"/>
+</config>
+</config>
+<config key="1">
+<entry key="datacell" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<config key="org.knime.core.data.def.StringCell">
+<entry key="StringCell" type="xstring" value="CiAgICAgUkRLaXQgICAgICAgICAgM0QKCiAgNSAgNCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMDk5OSBWMjAwMAogICAtNi4xODAwICAgLTYuMzY2MCAgICA0LjU2MzAgUyAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAKICAgLTUuOTMyMCAgIC03LjgwNjAgICAgNC4yNjYwIE8gICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwCiAgIC03LjEwMjAgICAtNS43ODkwICAgIDMuNTIzMCBPICAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMCAgMAogICAtNC44NjIwICAgLTUuNjkwMCAgICA0LjYwNDAgTyAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAgIDAKICAgLTYuNzYwMCAgIC02LjIxNjAgICAgNS45MzQwIE8gICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwICAwCiAgMSAgMiAgMiAgMAogIDEgIDMgIDIgIDAKICAxICA0ICAxICAwCiAgMSAgNSAgMSAgMApNICBDSEcgIDIgICA0ICAtMSAgIDUgIC0xCk0gIEVORAoKJCQkJAo="/>
+</config>
+</config>
+</config>
+</config>
 <config key="column_properties"/>
 <config key="meta_data"/>
 </config>
-<config key="column_spec_6">
+<config key="column_spec_8">
 <entry key="column_name" type="xstring" value="JSON"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -134,7 +190,7 @@
 <config key="column_properties"/>
 <config key="meta_data"/>
 </config>
-<config key="column_spec_7">
+<config key="column_spec_9">
 <entry key="column_name" type="xstring" value="Status"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -146,20 +202,20 @@
 <config key="lower_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="422"/>
+<entry key="IntCell" type="xint" value="200"/>
 </config>
 </config>
 <config key="upper_bound">
 <entry key="datacell" type="xstring" value="org.knime.core.data.def.IntCell"/>
 <config key="org.knime.core.data.def.IntCell">
-<entry key="IntCell" type="xint" value="422"/>
+<entry key="IntCell" type="xint" value="200"/>
 </config>
 </config>
 </config>
 <config key="column_properties"/>
 <config key="meta_data"/>
 </config>
-<config key="column_spec_8">
+<config key="column_spec_10">
 <entry key="column_name" type="xstring" value="Content type"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
@@ -181,13 +237,13 @@
 <config key="column_properties"/>
 <config key="meta_data"/>
 </config>
-<config key="column_spec_9">
+<config key="column_spec_11">
 <entry key="column_name" type="xstring" value="body"/>
 <config key="element_names">
 <entry key="array-size" type="xint" value="0"/>
 </config>
 <config key="column_type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.blob.BinaryObjectDataCell"/>
+<entry key="cell_class" type="xstring" value="org.knime.core.data.json.JSONCell"/>
 </config>
 <config key="column_domain"/>
 <config key="column_properties"/>

@@ -28,7 +28,11 @@
 <entry key="replace" type="xstring" value="Replace"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="state" type="xstring" value="IDLE"/>
+<config key="nodecontainer_message">
+<entry key="type" type="xstring" value="WARNING"/>
+<entry key="message" type="xstring" value="Status: DataLoadError: Strings to Binary Objects 0:0:0:30%%00010  Status: DataLoadError: Unable to load port content for node &quot;Strings to Binary Objects&quot;: No such data file: /Users/peter/Work/chemspace_knime/Examples/Full Submission Example/Insert Build (#0)/Strings to Binary Objects (#30)/port_1/data.zip"/>
+</config>
 <entry key="factory" type="xstring" value="org.knime.base.filehandling.stringstobinaryobjects.StringsToBinaryObjectsNodeFactory"/>
 <entry key="node-name" type="xstring" value="Strings to Binary Objects"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME File Handling Nodes"/>
@@ -41,19 +45,16 @@
 <entry key="node-feature-version" type="xstring" value="0.0.0"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Strings to Binary Objects"/>
-<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="hasContent" type="xboolean" value="false"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
-<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 16603, Cols: 6"/>
-<entry key="port_dir_location" type="xstring" value="port_1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
 </config>
 </config>
 <config key="filestores">
-<entry key="file_store_location" type="xstring" value="filestore"/>
-<entry key="file_store_id" type="xstring" value="4ceded32-bb79-41ba-9df7-d7a25260d987"/>
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
 </config>
 </config>

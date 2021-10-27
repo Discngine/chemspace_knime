@@ -8,7 +8,7 @@
 <config key="model">
 <config key="urls">
 <entry key="array-size" type="xint" value="1"/>
-<entry key="0" type="xstring" value="knime://LOCAL/Data/pkidb_2020-12-09.sdf"/>
+<entry key="0" type="xstring" value="file:/Users/peter/Downloads/5dls-molecules.sdf"/>
 </config>
 <entry key="useRowID" type="xboolean" value="false"/>
 <entry key="extractName" type="xboolean" value="false"/>
@@ -33,10 +33,10 @@
 <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.chem.base"/>
 <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
 <entry key="node-bundle-version" type="xstring" value="4.3.0.v202011191214"/>
-<entry key="node-feature-name" type="xstring" isnull="true" value=""/>
-<entry key="node-feature-symbolic-name" type="xstring" isnull="true" value=""/>
-<entry key="node-feature-vendor" type="xstring" isnull="true" value=""/>
-<entry key="node-feature-version" type="xstring" value="0.0.0"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Base Chemistry Types &amp; Nodes"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.chem.types.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="4.3.0.v202011191214"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="SDF Reader"/>
 <entry key="hasContent" type="xboolean" value="true"/>
@@ -46,7 +46,7 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 255, Cols: 1"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 2, Cols: 1"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 <config key="port_2">
@@ -59,6 +59,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="9b3d3933-699e-4ff6-ac77-b06f8f136738"/>
+<entry key="file_store_id" type="xstring" value="bbac74ba-50d6-474e-b5fb-ad389ac3208e"/>
 </config>
 </config>

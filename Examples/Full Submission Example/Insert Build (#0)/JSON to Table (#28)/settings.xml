@@ -16,7 +16,11 @@
 <entry key="omit.nested.objects" type="xboolean" value="true"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="state" type="xstring" value="IDLE"/>
+<config key="nodecontainer_message">
+<entry key="type" type="xstring" value="WARNING"/>
+<entry key="message" type="xstring" value="Status: DataLoadError: JSON to Table 0:0:0:28%%00010  Status: DataLoadError: Unable to load port content for node &quot;JSON to Table&quot;: No such data file: /Users/peter/Work/chemspace_knime/Examples/Full Submission Example/Insert Build (#0)/JSON to Table (#28)/port_1/data.zip"/>
+</config>
 <entry key="factory" type="xstring" value="org.knime.json.node.totable.JSONToTableNodeFactory"/>
 <entry key="node-name" type="xstring" value="JSON to Table"/>
 <entry key="node-bundle-name" type="xstring" value="JSON related functionality for KNIME"/>
@@ -29,19 +33,16 @@
 <entry key="node-feature-version" type="xstring" value="4.3.0.v202011191521"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="JSON to Table"/>
-<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="hasContent" type="xboolean" value="false"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
-<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 16603, Cols: 18"/>
-<entry key="port_dir_location" type="xstring" value="port_1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="0a0573bf-6e27-492d-a966-28930edd1f89"/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
 </config>
 </config>

@@ -86,7 +86,11 @@
 </config>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="state" type="xstring" value="CONFIGURED"/>
+<config key="nodecontainer_message">
+<entry key="type" type="xstring" value="WARNING"/>
+<entry key="message" type="xstring" value="Status: DataLoadError: Table Creator 0:4%%00010  Status: DataLoadError: Unable to load port content for node &quot;Table Creator&quot;: No such data file: /Users/peter/Work/chemspace_knime/Examples/Full Submission Example/Table Creator (#4)/port_1/data.zip%%00010  Status: DataLoadError: State has changed from EXECUTED to CONFIGURED"/>
+</config>
 <entry key="factory" type="xstring" value="org.knime.base.node.io.tablecreator.TableCreator2NodeFactory"/>
 <entry key="node-name" type="xstring" value="Table Creator"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
@@ -99,19 +103,16 @@
 <entry key="node-feature-version" type="xstring" value="4.3.4.v202107111920"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Table Creator"/>
-<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="hasContent" type="xboolean" value="false"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
-<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 3, Cols: 3"/>
-<entry key="port_dir_location" type="xstring" value="port_1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="956f63a7-0147-4053-a129-847604824378"/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
 </config>
 </config>
