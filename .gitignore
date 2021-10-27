@@ -37,3 +37,11 @@ WIP/.metadata/knime/log4j3.xml
 WIP/.metadata/knime/nodeusage_3.0.json
 WIP/PostReaction/.knimeLock
 WIP/PostReaction/.savedWithData
+Example Workflows
+*.prefs
+*.xmi
+nodeusage_3*.json
+.knimeLock
+log*.xml
+.savedWithData
+.metadata
