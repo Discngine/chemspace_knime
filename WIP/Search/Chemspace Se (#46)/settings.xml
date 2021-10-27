@@ -15,7 +15,7 @@
 <config key="method-selection-36">
 <config key="variable_value">
 <entry key="array-size" type="xint" value="1"/>
-<entry key="0" type="xstring" value="explicit"/>
+<entry key="0" type="xstring" value="retro"/>
 </config>
 </config>
 <config key="molecule-selection-38">
@@ -43,7 +43,11 @@
 <config key="styles"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="state" type="xstring" value="IDLE"/>
+<config key="nodecontainer_message">
+<entry key="type" type="xstring" value="WARNING"/>
+<entry key="message" type="xstring" value="String Configuration 4:46:0:7: Component does not have input data, execute upstream nodes first"/>
+</config>
 <entry key="workflow-file" type="xstring" value="workflow.knime"/>
 <entry key="virtual-in-ID" type="xint" value="48"/>
 <config key="inports">
