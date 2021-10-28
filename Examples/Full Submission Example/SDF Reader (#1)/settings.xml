@@ -11,7 +11,7 @@
 <entry key="0" type="xstring" value="knime://LOCAL/Data/enamine_alcohols.sdf"/>
 </config>
 <entry key="useRowID" type="xboolean" value="false"/>
-<entry key="extractName" type="xboolean" value="true"/>
+<entry key="extractName" type="xboolean" value="false"/>
 <entry key="extractSDF" type="xboolean" value="true"/>
 <entry key="extractMol" type="xboolean" value="false"/>
 <entry key="extractCTab" type="xboolean" value="false"/>
@@ -21,7 +21,28 @@
 <entry key="limit" type="xint" value="0"/>
 <entry key="extractAllProperties" type="xboolean" value="false"/>
 <config key="properties">
-<entry key="count" type="xint" value="0"/>
+<entry key="count" type="xint" value="7"/>
+<entry key="extract_0" type="xboolean" value="false"/>
+<entry key="name_0" type="xstring" value="Mol Weight"/>
+<entry key="type_0" type="xstring" value="java.lang.Double"/>
+<entry key="extract_1" type="xboolean" value="true"/>
+<entry key="name_1" type="xstring" value="ID"/>
+<entry key="type_1" type="xstring" value="java.lang.String"/>
+<entry key="extract_2" type="xboolean" value="true"/>
+<entry key="name_2" type="xstring" value="NAME"/>
+<entry key="type_2" type="xstring" value="java.lang.String"/>
+<entry key="extract_3" type="xboolean" value="false"/>
+<entry key="name_3" type="xstring" value="URL"/>
+<entry key="type_3" type="xstring" value="java.lang.String"/>
+<entry key="extract_4" type="xboolean" value="true"/>
+<entry key="name_4" type="xstring" value="Availability"/>
+<entry key="type_4" type="xstring" value="java.lang.String"/>
+<entry key="extract_5" type="xboolean" value="false"/>
+<entry key="name_5" type="xstring" value="Class"/>
+<entry key="type_5" type="xstring" value="java.lang.String"/>
+<entry key="extract_6" type="xboolean" value="false"/>
+<entry key="name_6" type="xstring" value="Subclass"/>
+<entry key="type_6" type="xstring" value="java.lang.String"/>
 </config>
 <entry key="characterSetName" type="xstring" value="US-ASCII"/>
 </config>
@@ -49,7 +70,7 @@
 </config>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="state" type="xstring" value="CONFIGURED"/>
 <entry key="factory" type="xstring" value="org.knime.chem.base.node.io.sdf.SDFReader3NodeFactory"/>
 <entry key="node-name" type="xstring" value="SDF Reader"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Chemistry Base nodes"/>
@@ -62,26 +83,20 @@
 <entry key="node-feature-version" type="xstring" value="4.3.0.v202011191214"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="SDF Reader"/>
-<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="hasContent" type="xboolean" value="false"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
-<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 16603, Cols: 2"/>
-<entry key="port_dir_location" type="xstring" value="port_1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
 </config>
 <config key="port_2">
 <entry key="index" type="xint" value="2"/>
-<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
-<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 0, Cols: 2"/>
-<entry key="port_dir_location" type="xstring" value="port_2"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="004dd4ea-941a-4fb3-a935-d5c9a50098d3"/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
 </config>
 </config>

@@ -10,31 +10,27 @@
 <entry key="filter-type" type="xstring" value="STANDARD"/>
 <config key="included_names">
 <entry key="array-size" type="xint" value="7"/>
-<entry key="0" type="xstring" value="smiles"/>
-<entry key="1" type="xstring" value="rdkit"/>
-<entry key="2" type="xstring" value="Status"/>
-<entry key="3" type="xstring" value="new_ids"/>
-<entry key="4" type="xstring" value="new_building_blocks"/>
+<entry key="0" type="xstring" value="chemspace_int_molecule"/>
+<entry key="1" type="xstring" value="id"/>
+<entry key="2" type="xstring" value="availability"/>
+<entry key="3" type="xstring" value="source"/>
+<entry key="4" type="xstring" value="Status"/>
 <entry key="5" type="xstring" value="key"/>
 <entry key="6" type="xstring" value="building_block_id"/>
 </config>
 <config key="excluded_names">
-<entry key="array-size" type="xint" value="13"/>
-<entry key="0" type="xstring" value="name"/>
-<entry key="1" type="xstring" value="id"/>
-<entry key="2" type="xstring" value="availability"/>
-<entry key="3" type="xstring" value="source"/>
-<entry key="4" type="xstring" value="url"/>
-<entry key="5" type="xstring" value="ctab"/>
-<entry key="6" type="xstring" value="JSON"/>
-<entry key="7" type="xstring" value="Content type"/>
-<entry key="8" type="xstring" value="name (#1)"/>
-<entry key="9" type="xstring" value="ext_id"/>
-<entry key="10" type="xstring" value="ctab (#1)"/>
-<entry key="11" type="xstring" value="availability (#1)"/>
-<entry key="12" type="xstring" value="source (#1)"/>
+<entry key="array-size" type="xint" value="9"/>
+<entry key="0" type="xstring" value="url"/>
+<entry key="1" type="xstring" value="ctab"/>
+<entry key="2" type="xstring" value="JSON"/>
+<entry key="3" type="xstring" value="Content type"/>
+<entry key="4" type="xstring" value="name"/>
+<entry key="5" type="xstring" value="ext_id"/>
+<entry key="6" type="xstring" value="ctab (#1)"/>
+<entry key="7" type="xstring" value="availability (#1)"/>
+<entry key="8" type="xstring" value="source (#1)"/>
 </config>
-<entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+<entry key="enforce_option" type="xstring" value="EnforceInclusion"/>
 <config key="name_pattern">
 <entry key="pattern" type="xstring" value=""/>
 <entry key="type" type="xstring" value="Wildcard"/>
@@ -42,12 +38,10 @@
 </config>
 <config key="datatype">
 <config key="typelist">
-<entry key="org.knime.chem.types.SmilesValue" type="xboolean" value="false"/>
+<entry key="org.knime.chem.types.SdfValue" type="xboolean" value="false"/>
 <entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
-<entry key="org.rdkit.knime.types.RDKitMolValue" type="xboolean" value="false"/>
 <entry key="org.knime.core.data.json.JSONValue" type="xboolean" value="false"/>
 <entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
-<entry key="org.knime.core.data.collection.ListDataValue" type="xboolean" value="false"/>
 <entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
 <entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
 <entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
@@ -57,7 +51,7 @@
 </config>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="state" type="xstring" value="IDLE"/>
 <entry key="factory" type="xstring" value="org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"/>
 <entry key="node-name" type="xstring" value="Column Filter"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
@@ -70,19 +64,16 @@
 <entry key="node-feature-version" type="xstring" value="4.3.4.v202107111920"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Column Filter"/>
-<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="hasContent" type="xboolean" value="false"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
-<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 16603, Cols: 12"/>
-<entry key="port_dir_location" type="xstring" value="port_1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="e46e17d4-5b5d-472e-a376-d86e495380c4"/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
 </config>
 </config>
