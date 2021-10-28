@@ -45,6 +45,7 @@
 <config key="metadata">
 <entry key="description" type="xstring" value="Register new reactions via a REST POST request.%%00010The node will not associate your reaction with existing building blocks. Please use the Associate Reaction to Building Block node for this instead"/>
 <entry key="type" type="xstring" value="SINK"/>
+<entry key="icon" type="xstring" value="iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAACCklEQVR4nO2ZP0oFMRCHR32FpbbvAiIoiJXiJbyJpViJWFlaeQi9g70n0FIE9QiCoO6A0+zL5s9kkkyS/WAqk53fN5t9uyBAWyxKByjN7391yS/MA+h3CGP5rgZgku9+AK+OPWepQ+WCc/eX/2tu00YL53qo58A9nKOv8jFBeQrlO4RTCB/AeO0xJ6w0V7Aa7MVj36Zhn40Lw/ovXmRZpp5jn5PAPfpUO4y84tzB9BBcJ4F79NX9BtiGsHTs5d79b27YFEzJ+w6Bc201uORjh9CEfMjbwdXjMTq1EDbRNcvfQofwAwrvvk2ekBxCdfLEumVt6GfzJzOvKCHyRMx3gio48kTMd4IKYuSJaocgIU9UNwRJeULy7ZCUFPKE+iGklCfUDiGHvKtPsSFokS8yBG3yWDfCvVmhcvUZvyJVyOcqgobQpXx2SovP8qXIFWqWz9BHZahZPkMflaFm+Qx9VIZqQp4bvEl53/BNyE/tSdEnOfcRoULWq5QHiA/VtXxMj+LyiCnURuLrq5FHfIMdDvUkcG1V8ifgF66ZV90Y/L/5ONyuYV2oRBXyyDusBtw3rIv9NlApj+BzLfkIVCVPSIWtUh4xBd4SuEYV8khs8KrliSmBbcuehWVfVfLIJdhlsA6G2vNYV5084SPWrDzRtTxxDuHiD0WSJqaru+4CfwDfhvoY6qhwFjH+AFHLoDhy/fgaAAAAAElFTkSuQmCC"/>
 <config key="inports">
 <config key="inport_0">
 <entry key="name" type="xstring" value=""/>
@@ -62,7 +63,7 @@
 </config>
 <config key="workflow_template_information">
 <entry key="role" type="xstring" value="Template"/>
-<entry key="timestamp" type="xstring" value="2021-10-18 08:22:09"/>
+<entry key="timestamp" type="xstring" value="2021-10-27 08:22:06"/>
 <entry key="sourceURI" type="xstring" isnull="true" value=""/>
 <entry key="templateType" type="xstring" value="SubNode"/>
 </config>

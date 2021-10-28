@@ -47,7 +47,7 @@
 <entry key="missing.values.are.omitted" type="xboolean" value="true"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="CONFIGURED"/>
+<entry key="state" type="xstring" value="IDLE"/>
 <entry key="factory" type="xstring" value="org.knime.json.node.fromtable.TableToJsonNodeFactory"/>
 <entry key="node-name" type="xstring" value="Table to JSON"/>
 <entry key="node-bundle-name" type="xstring" value="JSON related functionality for KNIME"/>

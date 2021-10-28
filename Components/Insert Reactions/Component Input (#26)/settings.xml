@@ -33,7 +33,7 @@
 <entry key="sub-node-description" type="xstring" value="Register new reactions via a REST POST request.%%00010The node will not associate your reaction with existing building blocks. Please use the Associate Reaction to Building Block node for this instead"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="CONFIGURED"/>
+<entry key="state" type="xstring" value="IDLE"/>
 <config key="nodecontainer_message">
 <entry key="type" type="xstring" value="WARNING"/>
 <entry key="message" type="xstring" value="Component does not have input data, execute upstream nodes first"/>

@@ -8,15 +8,26 @@
 <config key="model">
 <entry key="scriptImports" type="xstring" value="// Your custom imports:%%00010"/>
 <entry key="scriptFields" type="xstring" value="// Your custom variables:%%00010"/>
-<entry key="scriptBody" type="xstring" value="out_url=v_domain+&quot;/api/&quot;+v_api_version+&quot;/buildingblocks/&quot;;%%00010%%00010%%00010"/>
+<entry key="scriptBody" type="xstring" value="out_url=v_domain+&quot;/api/&quot;+v_api_version+&quot;/buildingblocks/&quot;;%%00010out_source = v_sourcefield;%%00010%%00010%%00010"/>
 <config key="jarFiles">
 <entry key="array-size" type="xint" value="0"/>
 </config>
 <config key="outCols">
-<entry key="array-size" type="xint" value="1"/>
+<entry key="array-size" type="xint" value="2"/>
 <config key="0">
 <entry key="Name" type="xstring" value="url"/>
 <entry key="JavaName" type="xstring" value="out_url"/>
+<entry key="JavaType" type="xstring" value="java.lang.String"/>
+<config key="Type">
+<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
+<entry key="is_null" type="xboolean" value="false"/>
+</config>
+<entry key="ConverterFactory" type="xstring" value="org.knime.core.data.def.StringCell$StringCellFactory.createCell(class java.lang.String)"/>
+<entry key="replaceExisting" type="xboolean" value="false"/>
+</config>
+<config key="1">
+<entry key="Name" type="xstring" value="source"/>
+<entry key="JavaName" type="xstring" value="out_source"/>
 <entry key="JavaType" type="xstring" value="java.lang.String"/>
 <config key="Type">
 <entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
@@ -30,20 +41,10 @@
 <entry key="array-size" type="xint" value="0"/>
 </config>
 <config key="inCols">
-<entry key="array-size" type="xint" value="1"/>
-<config key="0">
-<entry key="Name" type="xstring" value="source"/>
-<entry key="JavaName" type="xstring" value="c_source"/>
-<entry key="JavaType" type="xstring" value="java.lang.String"/>
-<config key="Type">
-<entry key="cell_class" type="xstring" value="org.knime.core.data.def.StringCell"/>
-<entry key="is_null" type="xboolean" value="false"/>
-</config>
-<entry key="ConverterFactory" type="xstring" value="org.knime.core.data.convert.java.SimpleDataCellToJavaConverterFactory(StringValue,class java.lang.String,String)"/>
-</config>
+<entry key="array-size" type="xint" value="0"/>
 </config>
 <config key="inVars">
-<entry key="array-size" type="xint" value="2"/>
+<entry key="array-size" type="xint" value="3"/>
 <config key="0">
 <entry key="Name" type="xstring" value="domain"/>
 <entry key="JavaName" type="xstring" value="v_domain"/>
@@ -53,6 +54,12 @@
 <config key="1">
 <entry key="Name" type="xstring" value="api_version"/>
 <entry key="JavaName" type="xstring" value="v_api_version"/>
+<entry key="JavaType" type="xstring" value="java.lang.String"/>
+<entry key="Type" type="xstring" value="STRING"/>
+</config>
+<config key="2">
+<entry key="Name" type="xstring" value="source-field"/>
+<entry key="JavaName" type="xstring" value="v_sourcefield"/>
 <entry key="JavaType" type="xstring" value="java.lang.String"/>
 <entry key="Type" type="xstring" value="STRING"/>
 </config>

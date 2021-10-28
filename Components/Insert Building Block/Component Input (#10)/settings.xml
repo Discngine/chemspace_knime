@@ -24,13 +24,13 @@
 <entry key="variable-prefix" type="xstring" isnull="true" value=""/>
 <config key="port-names">
 <entry key="array-size" type="xint" value="1"/>
-<entry key="0" type="xstring" value="ctab"/>
+<entry key="0" type="xstring" value="Molecule"/>
 </config>
 <config key="port-descriptions">
 <entry key="array-size" type="xint" value="1"/>
-<entry key="0" type="xstring" value="Molecule specified as building block%%00010The property must be named ctab for now!"/>
+<entry key="0" type="xstring" value="Molecule input"/>
 </config>
-<entry key="sub-node-description" type="xstring" value="Insert new building blocks into chemspace using ctabs"/>
+<entry key="sub-node-description" type="xstring" value="Insert new building blocks into chemspace.%%00010Please select an external identifier and the availability of the molecule."/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="IDLE"/>

@@ -90,19 +90,6 @@
 <entry key="org.knime.rest.auth.ntlm.domain" type="xstring" value=""/>
 </config>
 <entry key="NTLM (Labs)_enabled" type="xboolean" value="false"/>
-<config key="NTLM">
-<config key="NTLM auth_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_authentication"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<config key="NTLM auth">
-<entry key="credentials" type="xstring" value=""/>
-<entry key="username" type="xstring" value=""/>
-<entry key="password" type="xpassword" value="015B23820E5D69FE178DD2D4FAB40F1303"/>
-<entry key="selectedType" type="xstring" value="USER_PWD"/>
-</config>
-</config>
-<entry key="NTLM_enabled" type="xboolean" value="false"/>
 <entry key="follow redirects" type="xboolean" value="true"/>
 <entry key="timeout" type="xint" value="2"/>
 <entry key="Use constant request body" type="xboolean" value="false"/>
@@ -110,7 +97,7 @@
 <entry key="Request body column" type="xstring" value="JSON"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="CONFIGURED"/>
+<entry key="state" type="xstring" value="IDLE"/>
 <entry key="factory" type="xstring" value="org.knime.rest.nodes.post.RestPostNodeFactory"/>
 <entry key="node-name" type="xstring" value="POST Request"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME REST Client Nodes"/>

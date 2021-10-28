@@ -28,7 +28,7 @@
 </config>
 <config key="port-descriptions">
 <entry key="array-size" type="xint" value="1"/>
-<entry key="0" type="xstring" value="status of each individual delete request"/>
+<entry key="0" type="xstring" value="status of each individual insert request with new or existing building block ids"/>
 </config>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>

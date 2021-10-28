@@ -13,7 +13,7 @@
 <entry key="up.to.n.levels" type="xint" value="1"/>
 <entry key="array.handling" type="xstring" value="GenerateCollectionCells"/>
 <entry key="removeSourceColumn" type="xboolean" value="true"/>
-<entry key="omit.nested.objects" type="xboolean" value="true"/>
+<entry key="omit.nested.objects" type="xboolean" value="false"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="IDLE"/>

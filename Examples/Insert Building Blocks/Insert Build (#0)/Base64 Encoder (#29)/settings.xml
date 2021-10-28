@@ -23,7 +23,7 @@
 <entry key="outputColumn" type="xstring" value="ctab"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="CONFIGURED"/>
+<entry key="state" type="xstring" value="IDLE"/>
 <entry key="factory" type="xstring" value="ws.palladian.nodes.helper.base64.encoder.Base64EncoderNodeFactory"/>
 <entry key="node-name" type="xstring" value="Base64 Encoder"/>
 <entry key="node-bundle-name" type="xstring" value="Palladian for KNIME"/>

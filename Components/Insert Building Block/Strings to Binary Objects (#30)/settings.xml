@@ -10,22 +10,22 @@
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
-<entry key="columnselection" type="xstring" value="ctab"/>
+<entry key="columnselection" type="xstring" value="chemspace_int_molecule"/>
 <config key="encoding_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
 <entry key="encoding" type="xstring" value="UTF-8"/>
-<config key="columnname_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-<entry key="EnabledStatus" type="xboolean" value="false"/>
-</config>
-<entry key="columnname" type="xstring" value="ctab"/>
 <config key="replace_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
-<entry key="replace" type="xstring" value="Replace"/>
+<entry key="replace" type="xstring" value="Append"/>
+<config key="columnname_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="columnname" type="xstring" value="ctab"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="IDLE"/>
