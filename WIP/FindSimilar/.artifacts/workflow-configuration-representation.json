@@ -1,0 +1,77 @@
+
+{
+    "maxSimilars-21": {
+        "@class": "org.knime.js.base.node.configuration.input.integer.IntegerDialogNodeRepresentation",
+        "label": "Max Number Similars",
+        "description": "Maximum number of similar molecules to return.",
+        "required": true,
+        "defaultValue": {
+            "@class": "org.knime.js.base.node.configuration.input.integer.IntegerDialogNodeValue",
+            "integer": 100
+        },
+        "currentValue": {
+            "@class": "org.knime.js.base.node.configuration.input.integer.IntegerDialogNodeValue",
+            "integer": 100
+        },
+        "usemin": true,
+        "usemax": false,
+        "min": 1,
+        "max": 100
+    },
+    "api_version-8": {
+        "@class": "org.knime.js.base.node.configuration.input.string.StringDialogNodeRepresentation",
+        "label": "API Version",
+        "description": "Specify the api version to use. valid choices are v1, v2, v3 etc...",
+        "required": true,
+        "defaultValue": {
+            "@class": "org.knime.js.base.node.configuration.input.string.StringDialogNodeValue",
+            "string": "v1"
+        },
+        "currentValue": {
+            "@class": "org.knime.js.base.node.configuration.input.string.StringDialogNodeValue",
+            "string": "v1"
+        },
+        "regex": "v\\d+",
+        "errorMessage": "Invalid version name, specify something like v1 or v2 etc ...",
+        "editorType": "Single-line",
+        "multilineEditorWidth": 40,
+        "multilineEditorHeight": 5
+    },
+    "maxBuildingBlocks-19": {
+        "@class": "org.knime.js.base.node.configuration.input.integer.IntegerDialogNodeRepresentation",
+        "label": "Max Number Building Blocks",
+        "description": "Maximum number of building blocks to search for and then recombine. The lower the number, the faster but also more restrictive the search will be",
+        "required": true,
+        "defaultValue": {
+            "@class": "org.knime.js.base.node.configuration.input.integer.IntegerDialogNodeValue",
+            "integer": 100
+        },
+        "currentValue": {
+            "@class": "org.knime.js.base.node.configuration.input.integer.IntegerDialogNodeValue",
+            "integer": 100
+        },
+        "usemin": true,
+        "usemax": false,
+        "min": 1,
+        "max": 100
+    },
+    "domain-7": {
+        "@class": "org.knime.js.base.node.configuration.input.string.StringDialogNodeRepresentation",
+        "label": "Domain",
+        "description": "Domain running the chemspace server",
+        "required": true,
+        "defaultValue": {
+            "@class": "org.knime.js.base.node.configuration.input.string.StringDialogNodeValue",
+            "string": "http://localhost"
+        },
+        "currentValue": {
+            "@class": "org.knime.js.base.node.configuration.input.string.StringDialogNodeValue",
+            "string": "http://localhost"
+        },
+        "regex": "",
+        "errorMessage": "Invalid domain name. Specify http://localhost if you run on localhost",
+        "editorType": "Single-line",
+        "multilineEditorWidth": 40,
+        "multilineEditorHeight": 5
+    }
+}

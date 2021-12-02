@@ -1,0 +1,23 @@
+
+{
+    "maxSimilars-21": {
+        "label": "Max Number Similars",
+        "type": "integer",
+        "default": 100
+    },
+    "api_version-8": {
+        "label": "API Version",
+        "type": "string",
+        "default": "v1"
+    },
+    "maxBuildingBlocks-19": {
+        "label": "Max Number Building Blocks",
+        "type": "integer",
+        "default": 100
+    },
+    "domain-7": {
+        "label": "Domain",
+        "type": "string",
+        "default": "http://localhost"
+    }
+}
