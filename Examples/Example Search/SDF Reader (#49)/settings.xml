@@ -8,7 +8,7 @@
 <config key="model">
 <config key="urls">
 <entry key="array-size" type="xint" value="1"/>
-<entry key="0" type="xstring" value="file:/Users/peter/Downloads/5dls-molecules.sdf"/>
+<entry key="0" type="xstring" value="knime://LOCAL/Data/pkidb_2020-12-09.sdf"/>
 </config>
 <entry key="useRowID" type="xboolean" value="false"/>
 <entry key="extractName" type="xboolean" value="false"/>
@@ -17,8 +17,8 @@
 <entry key="extractCTab" type="xboolean" value="false"/>
 <entry key="extractCounts" type="xboolean" value="false"/>
 <entry key="sourceLocationColumn" type="xboolean" value="false"/>
-<entry key="limitMolecules" type="xboolean" value="false"/>
-<entry key="limit" type="xint" value="0"/>
+<entry key="limitMolecules" type="xboolean" value="true"/>
+<entry key="limit" type="xint" value="10"/>
 <entry key="extractAllProperties" type="xboolean" value="false"/>
 <config key="properties">
 <entry key="count" type="xint" value="0"/>

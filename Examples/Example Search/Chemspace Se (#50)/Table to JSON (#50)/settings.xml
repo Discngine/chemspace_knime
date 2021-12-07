@@ -11,14 +11,13 @@
 <config key="included_names">
 <entry key="array-size" type="xint" value="2"/>
 <entry key="0" type="xstring" value="maxBuildingBlocks"/>
-<entry key="1" type="xstring" value="max_numberresults"/>
+<entry key="1" type="xstring" value="maxSimilars"/>
 </config>
 <config key="excluded_names">
-<entry key="array-size" type="xint" value="4"/>
+<entry key="array-size" type="xint" value="3"/>
 <entry key="0" type="xstring" value="chemspace_molecule"/>
 <entry key="1" type="xstring" value="url"/>
 <entry key="2" type="xstring" value="queryType"/>
-<entry key="3" type="xstring" value="options"/>
 </config>
 <entry key="enforce_option" type="xstring" value="EnforceInclusion"/>
 <config key="name_pattern">

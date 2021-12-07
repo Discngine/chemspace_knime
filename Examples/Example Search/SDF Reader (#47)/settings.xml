@@ -38,7 +38,6 @@
 <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
 <entry key="node-feature-version" type="xstring" value="4.3.0.v202011191214"/>
 <config key="factory_settings"/>
-<config key="node_creation_config"/>
 <entry key="name" type="xstring" value="SDF Reader"/>
 <entry key="hasContent" type="xboolean" value="false"/>
 <entry key="isInactive" type="xboolean" value="false"/>

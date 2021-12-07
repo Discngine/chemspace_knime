@@ -46,7 +46,7 @@
 <entry key="state" type="xstring" value="IDLE"/>
 <config key="nodecontainer_message">
 <entry key="type" type="xstring" value="WARNING"/>
-<entry key="message" type="xstring" value="String Configuration 0:46:0:7: Component does not have input data, execute upstream nodes first"/>
+<entry key="message" type="xstring" value="String Configuration 4:50:0:7: Component does not have input data, execute upstream nodes first"/>
 </config>
 <entry key="workflow-file" type="xstring" value="workflow.knime"/>
 <entry key="virtual-in-ID" type="xint" value="48"/>
@@ -58,10 +58,16 @@
 </config>
 </config>
 </config>
-<entry key="virtual-out-ID" type="xint" value="49"/>
+<entry key="virtual-out-ID" type="xint" value="72"/>
 <config key="outports">
 <config key="outport_0">
 <entry key="index" type="xint" value="0"/>
+<config key="type">
+<entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+</config>
+</config>
+<config key="outport_1">
+<entry key="index" type="xint" value="1"/>
 <config key="type">
 <entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
 </config>
@@ -83,6 +89,11 @@
 <entry key="name" type="xstring" value=""/>
 <entry key="description" type="xstring" value=""/>
 <entry key="index" type="xint" value="0"/>
+</config>
+<config key="outport_1">
+<entry key="name" type="xstring" value="Port 2"/>
+<entry key="description" type="xstring" value=""/>
+<entry key="index" type="xint" value="1"/>
 </config>
 </config>
 </config>

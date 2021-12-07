@@ -6,13 +6,7 @@
 <entry key="type" type="xstring" value="variable"/>
 <entry key="name" type="xstring" value="building-block-input"/>
 <entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="100"/>
-</config>
-<config key="Variable_1">
-<entry key="type" type="xstring" value="variable"/>
-<entry key="name" type="xstring" value="building-block-input"/>
-<entry key="class" type="xstring" value="INTEGER"/>
-<entry key="value" type="xint" value="100"/>
+<entry key="value" type="xint" value="10"/>
 </config>
 </config>
 <config key="internal_node_subsettings">

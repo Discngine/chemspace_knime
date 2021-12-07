@@ -8,7 +8,7 @@
 <entry key="authored-by" type="xstring" value="peter"/>
 <entry key="authored-when" type="xstring" value="2021-10-18 15:28:04 +0200"/>
 <entry key="lastEdited-by" type="xstring" value="peter"/>
-<entry key="lastEdited-when" type="xstring" value="2021-10-28 14:35:42 +0200"/>
+<entry key="lastEdited-when" type="xstring" value="2021-12-07 06:24:01 +0100"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="IDLE"/>
@@ -108,38 +108,6 @@
 </config>
 </config>
 </config>
-<config key="node_33">
-<entry key="id" type="xint" value="33"/>
-<entry key="node_settings_file" type="xstring" value="SDF Reader (#33)/settings.xml"/>
-<entry key="node_is_meta" type="xboolean" value="false"/>
-<entry key="node_type" type="xstring" value="NativeNode"/>
-<entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
-<config key="ui_settings">
-<config key="extrainfo.node.bounds">
-<entry key="array-size" type="xint" value="4"/>
-<entry key="0" type="xint" value="-116"/>
-<entry key="1" type="xint" value="137"/>
-<entry key="2" type="xint" value="69"/>
-<entry key="3" type="xint" value="76"/>
-</config>
-</config>
-</config>
-<config key="node_46">
-<entry key="id" type="xint" value="46"/>
-<entry key="node_settings_file" type="xstring" value="Chemspace Se (#46)/settings.xml"/>
-<entry key="node_is_meta" type="xboolean" value="true"/>
-<entry key="node_type" type="xstring" value="SubNode"/>
-<entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
-<config key="ui_settings">
-<config key="extrainfo.node.bounds">
-<entry key="array-size" type="xint" value="4"/>
-<entry key="0" type="xint" value="24"/>
-<entry key="1" type="xint" value="357"/>
-<entry key="2" type="xint" value="112"/>
-<entry key="3" type="xint" value="76"/>
-</config>
-</config>
-</config>
 <config key="node_47">
 <entry key="id" type="xint" value="47"/>
 <entry key="node_settings_file" type="xstring" value="SDF Reader (#47)/settings.xml"/>
@@ -167,6 +135,38 @@
 <entry key="array-size" type="xint" value="4"/>
 <entry key="0" type="xint" value="24"/>
 <entry key="1" type="xint" value="137"/>
+<entry key="2" type="xint" value="112"/>
+<entry key="3" type="xint" value="76"/>
+</config>
+</config>
+</config>
+<config key="node_49">
+<entry key="id" type="xint" value="49"/>
+<entry key="node_settings_file" type="xstring" value="SDF Reader (#49)/settings.xml"/>
+<entry key="node_is_meta" type="xboolean" value="false"/>
+<entry key="node_type" type="xstring" value="NativeNode"/>
+<entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+<config key="ui_settings">
+<config key="extrainfo.node.bounds">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xint" value="-136"/>
+<entry key="1" type="xint" value="137"/>
+<entry key="2" type="xint" value="69"/>
+<entry key="3" type="xint" value="76"/>
+</config>
+</config>
+</config>
+<config key="node_50">
+<entry key="id" type="xint" value="50"/>
+<entry key="node_settings_file" type="xstring" value="Chemspace Se (#50)/settings.xml"/>
+<entry key="node_is_meta" type="xboolean" value="true"/>
+<entry key="node_type" type="xstring" value="SubNode"/>
+<entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+<config key="ui_settings">
+<config key="extrainfo.node.bounds">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xint" value="24"/>
+<entry key="1" type="xint" value="357"/>
 <entry key="2" type="xint" value="112"/>
 <entry key="3" type="xint" value="76"/>
 </config>
@@ -205,8 +205,8 @@
 </config>
 </config>
 <config key="connection_3">
-<entry key="sourceID" type="xint" value="33"/>
-<entry key="destID" type="xint" value="48"/>
+<entry key="sourceID" type="xint" value="47"/>
+<entry key="destID" type="xint" value="50"/>
 <entry key="sourcePort" type="xint" value="1"/>
 <entry key="destPort" type="xint" value="1"/>
 <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.ConnectionUIInformation"/>
@@ -215,8 +215,8 @@
 </config>
 </config>
 <config key="connection_4">
-<entry key="sourceID" type="xint" value="47"/>
-<entry key="destID" type="xint" value="46"/>
+<entry key="sourceID" type="xint" value="49"/>
+<entry key="destID" type="xint" value="48"/>
 <entry key="sourcePort" type="xint" value="1"/>
 <entry key="destPort" type="xint" value="1"/>
 <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.ConnectionUIInformation"/>

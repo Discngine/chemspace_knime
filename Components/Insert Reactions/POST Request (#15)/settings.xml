@@ -91,7 +91,7 @@
 </config>
 <entry key="NTLM (Labs)_enabled" type="xboolean" value="false"/>
 <entry key="follow redirects" type="xboolean" value="true"/>
-<entry key="timeout" type="xint" value="2"/>
+<entry key="timeout" type="xint" value="30"/>
 <entry key="Use constant request body" type="xboolean" value="false"/>
 <entry key="Constant request body" type="xstring" value=""/>
 <entry key="Request body column" type="xstring" value="JSON"/>

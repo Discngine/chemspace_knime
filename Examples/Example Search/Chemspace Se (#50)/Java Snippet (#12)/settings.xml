@@ -8,7 +8,7 @@
 <config key="model">
 <entry key="scriptImports" type="xstring" value="// Your custom imports:%%00010"/>
 <entry key="scriptFields" type="xstring" value="// Your custom variables:%%00010"/>
-<entry key="scriptBody" type="xstring" value="%%00010out_url=v_domain+&quot;/api/&quot;+v_api_version+&quot;/search/&quot;+v_methodselection;%%00010out_queryType = &quot;ctab&quot;;%%00010%%00010out_maxBuildingBlocks = v_buildingblockinput;%%00010out_max_numberresults = v_numberresultsinput;%%00010%%00010"/>
+<entry key="scriptBody" type="xstring" value="%%00010out_url=v_domain+&quot;/api/&quot;+v_api_version+&quot;/search/&quot;+v_methodselection;%%00010out_queryType = &quot;ctab&quot;;%%00010%%00010out_maxBuildingBlocks = v_buildingblockinput;%%00010out_maxSimilars = v_numberresultsinput;%%00010%%00010"/>
 <config key="jarFiles">
 <entry key="array-size" type="xint" value="0"/>
 </config>
@@ -48,8 +48,8 @@
 <entry key="replaceExisting" type="xboolean" value="false"/>
 </config>
 <config key="3">
-<entry key="Name" type="xstring" value="max_numberresults"/>
-<entry key="JavaName" type="xstring" value="out_max_numberresults"/>
+<entry key="Name" type="xstring" value="maxSimilars"/>
+<entry key="JavaName" type="xstring" value="out_maxSimilars"/>
 <entry key="JavaType" type="xstring" value="java.lang.Integer"/>
 <config key="Type">
 <entry key="cell_class" type="xstring" value="org.knime.core.data.def.IntCell"/>
