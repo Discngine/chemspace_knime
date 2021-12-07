@@ -22,7 +22,7 @@
 <entry key="column" type="xstring" value="Molecule"/>
 </config>
 <config key="building-block-input-43">
-<entry key="integer" type="xint" value="10"/>
+<entry key="integer" type="xint" value="100"/>
 </config>
 <config key="number-results-input-44">
 <entry key="integer" type="xint" value="100"/>
@@ -96,6 +96,11 @@
 <entry key="index" type="xint" value="1"/>
 </config>
 </config>
+</config>
+<config key="workflow_template_information">
+<entry key="role" type="xstring" value="Link"/>
+<entry key="timestamp" type="xstring" value="2021-12-07 12:40:42"/>
+<entry key="sourceURI" type="xstring" value="knime://LOCAL/Components/Chemspace%20Search"/>
 </config>
 <entry key="layoutJSON" type="xstring" value="{&quot;parentLayoutLegacyMode&quot;:false}"/>
 <entry key="configurationLayoutJSON" type="xstring" value="{}"/>

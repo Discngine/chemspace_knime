@@ -7,8 +7,10 @@
 </config>
 <config key="model">
 <config key="urls">
-<entry key="array-size" type="xint" value="1"/>
-<entry key="0" type="xstring" value="knime://LOCAL/Data/enamine_alcohols.sdf"/>
+<entry key="array-size" type="xint" value="3"/>
+<entry key="0" type="xstring" value="file:/Users/peter/Work/chemspace_knime/Data/Enamine_CarboxylicAcids_28604cmpds_20190930.sdf"/>
+<entry key="1" type="xstring" value="file:/Users/peter/Work/chemspace_knime/Data/Enamine_Secondary_Amines_19380cmpds_20190930.sdf"/>
+<entry key="2" type="xstring" value="file:/Users/peter/Work/chemspace_knime/Data/Enamine_Primary_Amines_28851cmpds_20190930.sdf"/>
 </config>
 <entry key="useRowID" type="xboolean" value="false"/>
 <entry key="extractName" type="xboolean" value="false"/>

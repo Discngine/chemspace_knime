@@ -85,7 +85,7 @@
 </config>
 <config key="workflow_template_information">
 <entry key="role" type="xstring" value="Link"/>
-<entry key="timestamp" type="xstring" value="2021-10-28 06:54:30"/>
+<entry key="timestamp" type="xstring" value="2021-11-02 12:43:27"/>
 <entry key="sourceURI" type="xstring" value="knime://LOCAL/Components/Insert%20Building%20Block"/>
 </config>
 <entry key="layoutJSON" type="xstring" value="{&quot;parentLayoutLegacyMode&quot;:false}"/>
