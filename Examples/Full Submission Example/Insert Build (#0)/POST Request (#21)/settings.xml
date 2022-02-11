@@ -13,7 +13,7 @@
 <entry key="delay" type="xlong" value="0"/>
 <entry key="concurrency" type="xint" value="1"/>
 <entry key="SSL ignore hostname errors" type="xboolean" value="false"/>
-<entry key="SSL trust all" type="xboolean" value="false"/>
+<entry key="SSL trust all" type="xboolean" value="true"/>
 <entry key="Fail on connection problems" type="xboolean" value="false"/>
 <entry key="Fail on HTTP errors" type="xboolean" value="false"/>
 <config key="Request header keys">
@@ -90,6 +90,19 @@
 <entry key="org.knime.rest.auth.ntlm.domain" type="xstring" value=""/>
 </config>
 <entry key="NTLM (Labs)_enabled" type="xboolean" value="false"/>
+<config key="NTLM">
+<config key="NTLM auth_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_authentication"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<config key="NTLM auth">
+<entry key="credentials" type="xstring" isnull="true" value=""/>
+<entry key="username" type="xstring" value=""/>
+<entry key="password" type="xpassword" isnull="true" value=""/>
+<entry key="selectedType" type="xstring" value="USER_PWD"/>
+</config>
+</config>
+<entry key="NTLM_enabled" type="xboolean" value="false"/>
 <entry key="follow redirects" type="xboolean" value="true"/>
 <entry key="timeout" type="xint" value="30"/>
 <entry key="Use constant request body" type="xboolean" value="false"/>

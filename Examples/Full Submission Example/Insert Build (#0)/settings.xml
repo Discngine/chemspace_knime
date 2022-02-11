@@ -41,10 +41,6 @@
 </config>
 <entry key="customDescription" type="xstring" value="Retrieve the building blocks from chemspace using building block ID's as input"/>
 <entry key="state" type="xstring" value="IDLE"/>
-<config key="nodecontainer_message">
-<entry key="type" type="xstring" value="WARNING"/>
-<entry key="message" type="xstring" value="String Configuration 0:0:0:7: Component does not have input data, execute upstream nodes first"/>
-</config>
 <entry key="workflow-file" type="xstring" value="workflow.knime"/>
 <entry key="virtual-in-ID" type="xint" value="10"/>
 <config key="inports">
@@ -85,7 +81,7 @@
 </config>
 <config key="workflow_template_information">
 <entry key="role" type="xstring" value="Link"/>
-<entry key="timestamp" type="xstring" value="2021-11-02 12:43:27"/>
+<entry key="timestamp" type="xstring" value="2022-02-11 15:16:28"/>
 <entry key="sourceURI" type="xstring" value="knime://LOCAL/Components/Insert%20Building%20Block"/>
 </config>
 <entry key="layoutJSON" type="xstring" value="{&quot;parentLayoutLegacyMode&quot;:false}"/>

@@ -13,7 +13,7 @@
 <entry key="delay" type="xlong" value="0"/>
 <entry key="concurrency" type="xint" value="1"/>
 <entry key="SSL ignore hostname errors" type="xboolean" value="false"/>
-<entry key="SSL trust all" type="xboolean" value="false"/>
+<entry key="SSL trust all" type="xboolean" value="true"/>
 <entry key="Fail on connection problems" type="xboolean" value="false"/>
 <entry key="Fail on HTTP errors" type="xboolean" value="false"/>
 <config key="Request header keys">
@@ -107,7 +107,7 @@
 <entry key="timeout" type="xint" value="2"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="CONFIGURED"/>
+<entry key="state" type="xstring" value="IDLE"/>
 <entry key="factory" type="xstring" value="org.knime.rest.nodes.delete.RestDeleteNodeFactory"/>
 <entry key="node-name" type="xstring" value="DELETE Request"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME REST Client Nodes"/>

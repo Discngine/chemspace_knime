@@ -13,7 +13,7 @@
 <entry key="delay" type="xlong" value="0"/>
 <entry key="concurrency" type="xint" value="3"/>
 <entry key="SSL ignore hostname errors" type="xboolean" value="false"/>
-<entry key="SSL trust all" type="xboolean" value="false"/>
+<entry key="SSL trust all" type="xboolean" value="true"/>
 <entry key="Fail on connection problems" type="xboolean" value="false"/>
 <entry key="Fail on HTTP errors" type="xboolean" value="false"/>
 <config key="Request header keys">
